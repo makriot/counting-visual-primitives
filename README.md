@@ -1,2 +1,4 @@
-# counting-visual-primitives
-Representation Learning by Learning to Count on ImageNet implementation
+# Самообучение: Подсчёт примитивов (counting visual primitives)
+**Основная идея**: разбить изображение на части, и обучить модель строитьпризнаки (примитивы) так, чтобы сумма признаков частей изображения была близка к признакам исходного изображения и далеко от признаков другого рандомного изображения.
+
+Подход более подробно описан в статье: [Representation Learning by Learning to Count](https://arxiv.org/pdf/1708.06734)
